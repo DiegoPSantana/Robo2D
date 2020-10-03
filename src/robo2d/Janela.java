@@ -17,6 +17,12 @@ public class Janela {
         janela.setResizable(false);
 
         janela.setVisible(true);
+        
+        Robo2D robo = new Robo2D();
+        robo.setBounds(0, 0, 1280, 720);
+        robo.setVisible(true);
+        
+        janela.add(robo);
 
     }
 
