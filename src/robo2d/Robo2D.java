@@ -35,7 +35,7 @@ public class Robo2D extends JPanel implements Runnable{
     }
 
     private void update() {
-        
+        robo.update();
     }
     
     public void paintComponent(Graphics g){
