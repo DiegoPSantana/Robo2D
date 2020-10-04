@@ -8,12 +8,12 @@ public class robo {
     private int runAtual = 0;
     private int idleAtual = 0;
     private int timer;
-    private int largura;
-    private int altura;
+    private int largura = 562;
+    private int altura = 519;
     private int direcao;
     private int ultimaDirecao;
-    private int posX;
-    private int posY;
+    private int posX = 300;
+    private int posY = 100;
     private int velocidade;
     private int puloAtual = 0;
     private boolean pulo;

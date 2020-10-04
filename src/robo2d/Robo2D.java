@@ -17,6 +17,8 @@ import javax.swing.JPanel;
  */
 public class Robo2D extends JPanel implements Runnable{
     
+    Robo robo = new Robo();
+    
     
     public Robo2D(){
         Thread processoGame = new Thread(this);
@@ -38,8 +40,11 @@ public class Robo2D extends JPanel implements Runnable{
     
     public void paintComponent(Graphics g){
         super.paintComponent(g);
-        g.setColor(Color.BLACK);
-        g.fillRect(10, 10, 100, 100);        
+//        g.setColor(Color.BLACK);
+//        g.fillRect(10, 10, 100, 100);   
+        
+        robo.pintar(g);
+        
     }
 
     private void dorme() {
